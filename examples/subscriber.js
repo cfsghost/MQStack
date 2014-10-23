@@ -12,7 +12,7 @@ ascoltatori.build({
 	}
 }, function(ascoltatore) {
 
-	ascoltatore.subscribe('test', function(message) {
+	ascoltatore.subscribe('test', function(topic, message) {
 		console.log('Received:', message);
 	});
 });
