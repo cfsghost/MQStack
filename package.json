@@ -1,6 +1,6 @@
 {
   "name": "mqstack",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Message queue framework",
   "main": "./lib/mqstack.js",
   "scripts": {
